@@ -349,7 +349,8 @@ li {
   display: -ms-flexbox;
   display: flex;
 }
-.team-cards .data-cards {
+
+.team-cards__content {
   width: calc((100% - 90px) / 4);
   background-color: #ffffff;
   border: none;
@@ -357,7 +358,8 @@ li {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-cards .data-cards:not(:last-child) {
+
+.team-cards__content:not(:last-child) {
   margin-right: var(--set-card-gap);
 }
 
@@ -365,11 +367,11 @@ li {
   background: #f5f4fa;
 }
 
-.photo {
+.team-cards__photo {
   margin-bottom: 30px;
 }
 
-.title-name {
+.team-cards__title {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
@@ -378,7 +380,7 @@ li {
   letter-spacing: 0.03em;
 }
 
-.text-position {
+.team-cards__position {
   margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
@@ -387,7 +389,7 @@ li {
   color: var(--paragraph-color);
 }
 
-.social-links .link {
+.social-links__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,17 +407,17 @@ li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-social {
+.social-links__icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links .link-item + .link-item {
+.social-links__item + .social-links__item {
   margin-left: 10px;
 }
 
-.link:hover,
-.link:focus {
+.social-links__link:hover,
+.social-links__link:focus {
   fill: #ffffff;
   background-color: var(--hover-color);
 }
@@ -430,7 +432,7 @@ li {
   margin-bottom: 30px;
 }
 
-.client-link {
+.clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,18 +451,18 @@ li {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-clients {
+.clients__icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--hover-color);
   border: 1px solid var(--hover-color);
 }
 
-.client-list {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
