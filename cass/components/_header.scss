@@ -52,6 +52,11 @@
   color: #212121;
 
   position: relative;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
 }
 
 .text-nav.current {
@@ -68,11 +73,6 @@
 
   position: absolute;
   bottom: -1px;
-}
-
-.text-nav:hover,
-.text-nav:focus {
-  color: var(--hover-color);
 }
 
 .contacts-nav {
@@ -103,4 +103,3 @@
     margin-left: 50px;
   }
 }
-

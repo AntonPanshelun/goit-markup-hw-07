@@ -140,6 +140,9 @@ li {
   color: #212121;
   position: relative;
 }
+.text-nav:hover, .text-nav:focus {
+  color: var(--hover-color);
+}
 
 .text-nav.current {
   color: #2196f3;
@@ -154,11 +157,6 @@ li {
   border-radius: 2px;
   position: absolute;
   bottom: -1px;
-}
-
-.text-nav:hover,
-.text-nav:focus {
-  color: var(--hover-color);
 }
 
 .contacts-nav {
@@ -406,6 +404,10 @@ li {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-links__link:hover, .social-links__link:focus {
+  fill: #ffffff;
+  background-color: var(--hover-color);
+}
 
 .social-links__icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -414,12 +416,6 @@ li {
 
 .social-links__item + .social-links__item {
   margin-left: 10px;
-}
-
-.social-links__link:hover,
-.social-links__link:focus {
-  fill: #ffffff;
-  background-color: var(--hover-color);
 }
 
 .social-links {
@@ -450,16 +446,14 @@ li {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.clients__link:hover, .clients__link:focus {
+  fill: var(--hover-color);
+  border: 1px solid var(--hover-color);
+}
 
 .clients__icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  fill: var(--hover-color);
-  border: 1px solid var(--hover-color);
 }
 
 .clients__list {
@@ -505,9 +499,7 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-port:hover,
-.button-port:focus {
+.button-port:hover, .button-port:focus {
   color: #fff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -557,17 +549,15 @@ li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.card-link:hover, .card-link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .card-link:hover .text-description,
 .card-link:focus .text-description {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
-
-.card-link:hover,
-.card-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card {
@@ -636,14 +626,12 @@ li {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.links a:hover, .links a:focus {
+  color: #2196f3;
+}
 
 .links .map-point {
   color: #ffffff;
-}
-
-.links a:hover,
-.links a:focus {
-  color: #2196f3;
 }
 
 .offer {
@@ -754,14 +742,12 @@ li {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.button-subscribe:hover, .button-subscribe:focus {
+  opacity: 0.8;
+}
 
 .icon-subscribe {
   margin-left: 10px;
-}
-
-.button-subscribe:hover,
-.button-subscribe:focus {
-  opacity: 0.8;
 }
 
 .backdrop {
@@ -824,7 +810,6 @@ li {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .icon-close:hover {
   fill: var(--hover-color);
 }
@@ -914,7 +899,6 @@ li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-send:hover {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
