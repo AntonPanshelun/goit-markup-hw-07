@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.team-cards__content {
+.team__member {
   width: calc((100% - 90px) / 4);
   background-color: #ffffff;
   border: none;
@@ -11,7 +11,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-cards__content:not(:last-child) {
+.team__member:not(:last-child) {
   margin-right: var(--set-card-gap);
 }
 
@@ -19,10 +19,10 @@
   background: #f5f4fa;
 }
 
-.team-cards__photo {
+.team__photo {
   margin-bottom: 30px;
 }
-.team-cards__title {
+.team__title {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
@@ -31,7 +31,7 @@
   letter-spacing: 0.03em;
 }
 
-.team-cards__position {
+.team__position {
   margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
